@@ -1,0 +1,83 @@
+.header-main-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 80px;
+  background-color: #c896e9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.header-title {
+  color: #fff;
+  justify-self: start;
+  align-self: center;
+  /* background-color: red; */
+  margin: 0;
+  padding-left: 0;
+  font-family: "Satisfy", system-ui;
+  font-size: 2rem;
+}
+
+.header-btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-btn {
+  background-color: #62a732;
+  color: #fff;
+}
+
+.header-menu-btn {
+  background-color: #62a732;
+  color: #fff;
+}
+
+.header-menu-btn-text {
+  color: #fff;
+}
+
+.header-menu-container {
+  display: none;
+}
+
+.mat-menu {
+  display: none;
+}
+
+.mat-mdc-menu-content {
+  background-color: #425a3a;
+}
+
+.small-menu-btn {
+  background-color: #62a732;
+  color: #fff;
+}
+#cdk-overlay-0 {
+  background-color: #425a3a;
+}
+
+#small-menu-btn-icon {
+  color: #fff;
+}
+
+@media (max-width: 1180px) {
+  .header-btn-container {
+    display: none;
+  }
+
+  .header-btn {
+    display: none; /* Les boutons standards disparaissent */
+  }
+
+  .header-menu-container {
+    display: block;
+  }
+}

@@ -1,1 +1,20 @@
-<p>gallery works!</p>
+<div id="gallerySection">
+  <div class="card">
+    <p-galleria
+      [value]="images"
+      [responsiveOptions]="responsiveOptions"
+      [containerStyle]="{ 'max-width': '640px' }"
+      [numVisible]="7"
+      [circular]="true"
+    >
+      <ng-template pTemplate="item" let-item>
+        <img [src]="item.itemImageSrc" style="width: 100%; display: block" />
+      </ng-template>
+      <ng-template pTemplate="thumbnail" let-item>
+        <div class="grid grid-nogutter justify-content-center">
+          <img [src]="item.thumbnailImageSrc" style="display: block" />
+        </div>
+      </ng-template>
+    </p-galleria>
+  </div>
+</div>

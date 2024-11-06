@@ -1,0 +1,26 @@
+[
+  {
+    "itemImageSrc": "1.jpg",
+    "thumbnailImageSrc": "1mini.jpg",
+    "alt": "Description for Blanche",
+    "title": "Blanche"
+  },
+  {
+    "itemImageSrc": "2.jpg",
+    "thumbnailImageSrc": "2mini.jpg",
+    "alt": "Description for Fille",
+    "title": "Fille"
+  },
+  {
+    "itemImageSrc": "3.jpg",
+    "thumbnailImageSrc": "3mini.jpg",
+    "alt": "Description for Garçons",
+    "title": "Garçons"
+  },
+  {
+    "itemImageSrc": "4.jpg",
+    "thumbnailImageSrc": "4mini.jpg",
+    "alt": "Description for Garçons",
+    "title": "Garçons"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "itemImageSrc": "assets/1.jpg",
+    "thumbnailImageSrc": "assets/1.jpg",
+    "alt": "Description for Blanche",
+    "title": "Blanche"
+  },
+  {
+    "itemImageSrc": "assets/2.jpg",
+    "thumbnailImageSrc": "assets/2.jpg",
+    "alt": "Description for Fille",
+    "title": "Fille"
+  },
+  {
+    "itemImageSrc": "assets/3.jpg",
+    "thumbnailImageSrc": "assets/3.jpg",
+    "alt": "Description for Garçons",
+    "title": "Garçons"
+  },
+  {
+    "itemImageSrc": "assets/4.jpg",
+    "thumbnailImageSrc": "assets/4.jpg",
+    "alt": "Description for Garçons",
+    "title": "Garçons"
+  }
+]

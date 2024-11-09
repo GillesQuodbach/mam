@@ -60,6 +60,7 @@
   background-color: #62a732;
   color: #fff;
 }
+
 #cdk-overlay-0 {
   background-color: #425a3a;
 }
@@ -68,13 +69,14 @@
   color: #fff;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 765px) {
   .header-btn-container {
     display: none;
   }
 
   .header-btn {
-    display: none; /* Les boutons standards disparaissent */
+    display: none;
+    /* Les boutons standards disparaissent */
   }
 
   .header-menu-container {

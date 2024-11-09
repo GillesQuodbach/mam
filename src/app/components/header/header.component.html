@@ -2,30 +2,10 @@
   <span class="header-title">Mam Les ptits aventuriers</span>
   <img src="mon-image.png" alt="" />
   <div class="header-btn-container">
-    <p-button
-      label="Accueil"
-      [raised]="true"
-      icon="pi pi-home"
-      (click)="scrollToSection('homeSection')"
-    />
+    <p-button label="Accueil" [raised]="true" icon="pi pi-home" (click)="scrollToSection('homeSection')" />
 
-    <p-button
-      label="Notre projet"
-      [raised]="true"
-      icon="pi pi-book"
-      (click)="scrollToSection('aproposSection')"
-    />
-    <p-button
-      label="Gallerie"
-      [raised]="true"
-      icon="pi pi-images"
-      (click)="scrollToSection('gallerySection')"
-    />
-    <p-button
-      label="Contact"
-      [raised]="true"
-      icon="pi pi-address-book"
-      (click)="scrollToSection('contactSection')"
-    />
+    <p-button label="Projet" [raised]="true" icon="pi pi-book" (click)="scrollToSection('aproposSection')" />
+    <p-button label="Gallerie" [raised]="true" icon="pi pi-images" (click)="scrollToSection('gallerySection')" />
+    <p-button label="Contact" [raised]="true" icon="pi pi-address-book" (click)="scrollToSection('contactSection')" />
   </div>
 </div>

@@ -8,12 +8,16 @@
       [circular]="true"
     >
       <ng-template pTemplate="item" let-item>
-        <img [src]="item.itemImageSrc" style="width: 100%; display: block" />
+        <img
+          [src]="item.itemImageSrc"
+          style="width: 100%; height: 500px; display: block"
+        />
       </ng-template>
       <ng-template pTemplate="thumbnail" let-item>
-        <div class="grid grid-nogutter justify-content-center">
-          <img [src]="item.thumbnailImageSrc" style="display: block" />
-        </div>
+        <img
+          [src]="item.thumbnailImageSrc"
+          style="width: 100%; display: block"
+        />
       </ng-template>
     </p-galleria>
   </div>

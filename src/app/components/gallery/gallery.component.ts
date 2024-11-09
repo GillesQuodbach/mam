@@ -15,15 +15,11 @@ export class GalleryComponent implements OnInit {
 
   responsiveOptions: any[] = [
     {
-      breakpoint: '1024px',
-      numVisible: 5,
+      breakpoint: '1300px',
+      numVisible: 4,
     },
     {
-      breakpoint: '768px',
-      numVisible: 3,
-    },
-    {
-      breakpoint: '560px',
+      breakpoint: '575px',
       numVisible: 1,
     },
   ];
